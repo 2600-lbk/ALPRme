@@ -1,0 +1,33 @@
+{
+  "image": "usa_BG6W544.jpg",
+  "width": 1440,
+  "height": 940,
+  "detections": [
+    {
+      "plate": "BG6W544",
+      "confidence": 0.95009765625,
+      "char_confidences": [
+        0.9970703125,
+        0.9990234375,
+        0.9951171875,
+        1.0,
+        0.95263671875,
+        0.56005859375,
+        0.998046875,
+        0.9990234375,
+        1.0,
+        1.0
+      ],
+      "bbox": {
+        "x1": 327,
+        "y1": 595,
+        "x2": 416,
+        "y2": 678
+      },
+      "detector_confidence": 0.873046875,
+      "region": "United States",
+      "region_confidence": 0.992836058139801
+    }
+  ],
+  "ground_truth": "BG6W544"
+}

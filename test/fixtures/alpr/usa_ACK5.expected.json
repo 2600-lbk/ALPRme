@@ -1,0 +1,33 @@
+{
+  "image": "usa_ACK5.jpg",
+  "width": 1378,
+  "height": 893,
+  "detections": [
+    {
+      "plate": "",
+      "confidence": 1.0,
+      "char_confidences": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bbox": {
+        "x1": 792,
+        "y1": 629,
+        "x2": 898,
+        "y2": 679
+      },
+      "detector_confidence": 0.62255859375,
+      "region": "Unknown",
+      "region_confidence": 0.9999904632568359
+    }
+  ],
+  "ground_truth": "ACK5"
+}

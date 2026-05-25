@@ -1,0 +1,58 @@
+{
+  "image": "usa_UCZ595.jpg",
+  "width": 1304,
+  "height": 839,
+  "detections": [
+    {
+      "plate": "UCZ595",
+      "confidence": 0.99912109375,
+      "char_confidences": [
+        1.0,
+        0.9912109375,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bbox": {
+        "x1": 346,
+        "y1": 573,
+        "x2": 419,
+        "y2": 615
+      },
+      "detector_confidence": 0.8623046875,
+      "region": "United States",
+      "region_confidence": 0.9917449355125427
+    },
+    {
+      "plate": "",
+      "confidence": 0.98154296875,
+      "char_confidences": [
+        0.97705078125,
+        0.97802734375,
+        0.966796875,
+        0.958984375,
+        0.96435546875,
+        0.98291015625,
+        0.9921875,
+        0.99609375,
+        0.9990234375,
+        1.0
+      ],
+      "bbox": {
+        "x1": 1075,
+        "y1": 472,
+        "x2": 1104,
+        "y2": 499
+      },
+      "detector_confidence": 0.53125,
+      "region": "Unknown",
+      "region_confidence": 0.9950416684150696
+    }
+  ],
+  "ground_truth": "UCZ595"
+}

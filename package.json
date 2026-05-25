@@ -1,0 +1,50 @@
+{
+  "name": "alprme",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:share": "VITE_HOST=true vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "preview:share": "VITE_HOST=true vite preview",
+    "typecheck": "vue-tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "replay": "vite-node scripts/replay.ts --"
+  },
+  "dependencies": {
+    "dexie": "^4.4.2",
+    "leaflet": "^1.9.4",
+    "magvar": "^2.0.1",
+    "onnxruntime-web": "^1.26.0",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.5.5",
+    "vue": "^3.5.22",
+    "vue-router": "^5.0.6"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/jsdom": "^28.0.3",
+    "@types/leaflet": "^1.9.21",
+    "@types/node": "^25.9.1",
+    "@vite-pwa/assets-generator": "^1.0.2",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/test-utils": "^2.4.10",
+    "canvas": "^3.2.3",
+    "fake-indexeddb": "^6.2.5",
+    "jsdom": "^29.1.1",
+    "typescript": "^6.0.3",
+    "vite": "^7.1.9",
+    "vite-plugin-pwa": "^1.1.0",
+    "vitest": "^4.1.6",
+    "vue-tsc": "^3.2.8",
+    "workbox-window": "^7.4.0"
+  },
+  "overrides": {
+    "sharp": "^0.33.5",
+    "sharp-ico": "^0.1.5"
+  }
+}

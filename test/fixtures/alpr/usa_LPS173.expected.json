@@ -1,0 +1,33 @@
+{
+  "image": "usa_LPS173.jpg",
+  "width": 1232,
+  "height": 784,
+  "detections": [
+    {
+      "plate": "LPS173",
+      "confidence": 0.997119140625,
+      "char_confidences": [
+        0.97900390625,
+        1.0,
+        0.9931640625,
+        1.0,
+        0.9990234375,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bbox": {
+        "x1": 343,
+        "y1": 534,
+        "x2": 413,
+        "y2": 574
+      },
+      "detector_confidence": 0.837890625,
+      "region": "United States",
+      "region_confidence": 0.9184221625328064
+    }
+  ],
+  "ground_truth": "LPS173"
+}

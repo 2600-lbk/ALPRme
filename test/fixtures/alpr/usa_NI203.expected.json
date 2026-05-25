@@ -1,0 +1,58 @@
+{
+  "image": "usa_NI203.jpg",
+  "width": 1378,
+  "height": 893,
+  "detections": [
+    {
+      "plate": "NI20",
+      "confidence": 0.8721435546875,
+      "char_confidences": [
+        0.93603515625,
+        0.317138671875,
+        0.9052734375,
+        0.966796875,
+        0.60107421875,
+        0.9951171875,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bbox": {
+        "x1": 371,
+        "y1": 700,
+        "x2": 564,
+        "y2": 799
+      },
+      "detector_confidence": 0.7998046875,
+      "region": "United States",
+      "region_confidence": 0.9996843338012695
+    },
+    {
+      "plate": "",
+      "confidence": 0.99951171875,
+      "char_confidences": [
+        0.998046875,
+        0.9970703125,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bbox": {
+        "x1": 1037,
+        "y1": 685,
+        "x2": 1187,
+        "y2": 745
+      },
+      "detector_confidence": 0.66796875,
+      "region": "Unknown",
+      "region_confidence": 0.9998400211334229
+    }
+  ],
+  "ground_truth": "NI203"
+}

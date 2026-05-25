@@ -1,0 +1,33 @@
+{
+  "image": "usa_878BHL.jpg",
+  "width": 1440,
+  "height": 940,
+  "detections": [
+    {
+      "plate": "878BHL",
+      "confidence": 0.997265625,
+      "char_confidences": [
+        0.9931640625,
+        0.9970703125,
+        0.994140625,
+        0.9921875,
+        0.99609375,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bbox": {
+        "x1": 391,
+        "y1": 556,
+        "x2": 530,
+        "y2": 621
+      },
+      "detector_confidence": 0.87255859375,
+      "region": "United States",
+      "region_confidence": 0.8584613800048828
+    }
+  ],
+  "ground_truth": "878BHL"
+}

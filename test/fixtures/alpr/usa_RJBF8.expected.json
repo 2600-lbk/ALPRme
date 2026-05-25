@@ -1,0 +1,33 @@
+{
+  "image": "usa_RJBF8.jpg",
+  "width": 1440,
+  "height": 940,
+  "detections": [
+    {
+      "plate": "RJBF8",
+      "confidence": 1.0,
+      "char_confidences": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bbox": {
+        "x1": 303,
+        "y1": 517,
+        "x2": 454,
+        "y2": 617
+      },
+      "detector_confidence": 0.86572265625,
+      "region": "United States",
+      "region_confidence": 0.9994804263114929
+    }
+  ],
+  "ground_truth": "RJBF8"
+}

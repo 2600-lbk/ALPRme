@@ -1,0 +1,20 @@
+[project]
+name = "alprme-fixtures"
+version = "0.1.0"
+description = "Fixture generation tooling for ALPRme ALPR tests"
+requires-python = ">=3.10"
+readme = "README.md"
+dependencies = [
+    "fast-alpr",
+    "fast-plate-ocr",
+    "open-image-models",
+    "onnxruntime>=1.19.2",
+    "opencv-python-headless>=4.9",
+    "huggingface-hub>=0.28",
+    "pillow>=10.0",
+]
+
+[tool.uv.sources]
+fast-alpr = { path = "reference_repos/fast-alpr", editable = true }
+fast-plate-ocr = { path = "reference_repos/fast-plate-ocr", editable = true }
+open-image-models = { path = "reference_repos/open-image-models", editable = true }

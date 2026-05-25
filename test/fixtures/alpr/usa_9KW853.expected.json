@@ -1,0 +1,33 @@
+{
+  "image": "usa_9KW853.jpg",
+  "width": 1376,
+  "height": 893,
+  "detections": [
+    {
+      "plate": "9KW853",
+      "confidence": 1.0,
+      "char_confidences": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bbox": {
+        "x1": 495,
+        "y1": 415,
+        "x2": 668,
+        "y2": 515
+      },
+      "detector_confidence": 0.83544921875,
+      "region": "United States",
+      "region_confidence": 0.9999783039093018
+    }
+  ],
+  "ground_truth": "9KW853"
+}

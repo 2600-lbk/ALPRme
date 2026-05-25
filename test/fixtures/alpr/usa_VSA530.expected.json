@@ -1,0 +1,58 @@
+{
+  "image": "usa_VSA530.jpg",
+  "width": 1627,
+  "height": 1081,
+  "detections": [
+    {
+      "plate": "VSA530",
+      "confidence": 1.0,
+      "char_confidences": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bbox": {
+        "x1": 529,
+        "y1": 702,
+        "x2": 651,
+        "y2": 776
+      },
+      "detector_confidence": 0.86572265625,
+      "region": "United States",
+      "region_confidence": 0.9995017051696777
+    },
+    {
+      "plate": "9177MU",
+      "confidence": 0.99248046875,
+      "char_confidences": [
+        0.98193359375,
+        0.98388671875,
+        0.9990234375,
+        0.98486328125,
+        0.9951171875,
+        0.98779296875,
+        0.9921875,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bbox": {
+        "x1": 82,
+        "y1": 700,
+        "x2": 150,
+        "y2": 743
+      },
+      "detector_confidence": 0.791015625,
+      "region": "United States",
+      "region_confidence": 0.9998799562454224
+    }
+  ],
+  "ground_truth": "VSA530"
+}

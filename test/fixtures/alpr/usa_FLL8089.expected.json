@@ -1,0 +1,33 @@
+{
+  "image": "usa_FLL8089.jpg",
+  "width": 1870,
+  "height": 1262,
+  "detections": [
+    {
+      "plate": "FLL8089",
+      "confidence": 0.99951171875,
+      "char_confidences": [
+        1.0,
+        1.0,
+        1.0,
+        0.9970703125,
+        1.0,
+        0.998046875,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bbox": {
+        "x1": 1363,
+        "y1": 767,
+        "x2": 1431,
+        "y2": 816
+      },
+      "detector_confidence": 0.76171875,
+      "region": "Brazil",
+      "region_confidence": 0.999834418296814
+    }
+  ],
+  "ground_truth": "FLL8089"
+}

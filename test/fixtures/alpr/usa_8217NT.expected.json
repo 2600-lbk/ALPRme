@@ -1,0 +1,33 @@
+{
+  "image": "usa_8217NT.jpg",
+  "width": 1440,
+  "height": 940,
+  "detections": [
+    {
+      "plate": "8217NT",
+      "confidence": 0.99853515625,
+      "char_confidences": [
+        1.0,
+        1.0,
+        1.0,
+        0.9990234375,
+        0.9970703125,
+        0.990234375,
+        0.9990234375,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bbox": {
+        "x1": 1047,
+        "y1": 624,
+        "x2": 1099,
+        "y2": 666
+      },
+      "detector_confidence": 0.806640625,
+      "region": "United States",
+      "region_confidence": 0.9965879917144775
+    }
+  ],
+  "ground_truth": "8217NT"
+}

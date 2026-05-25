@@ -1,0 +1,33 @@
+{
+  "image": "usa_VTJ357.jpg",
+  "width": 1374,
+  "height": 890,
+  "detections": [
+    {
+      "plate": "VTJ357",
+      "confidence": 1.0,
+      "char_confidences": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bbox": {
+        "x1": 659,
+        "y1": 584,
+        "x2": 753,
+        "y2": 628
+      },
+      "detector_confidence": 0.880859375,
+      "region": "United States",
+      "region_confidence": 0.9898611307144165
+    }
+  ],
+  "ground_truth": "VTJ357"
+}

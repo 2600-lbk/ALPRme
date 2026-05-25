@@ -1,0 +1,33 @@
+{
+  "image": "usa_L29NSN.jpg",
+  "width": 1378,
+  "height": 893,
+  "detections": [
+    {
+      "plate": "L29NSN",
+      "confidence": 1.0,
+      "char_confidences": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bbox": {
+        "x1": 1095,
+        "y1": 596,
+        "x2": 1186,
+        "y2": 666
+      },
+      "detector_confidence": 0.89111328125,
+      "region": "United States",
+      "region_confidence": 0.9899734258651733
+    }
+  ],
+  "ground_truth": "L29NSN"
+}

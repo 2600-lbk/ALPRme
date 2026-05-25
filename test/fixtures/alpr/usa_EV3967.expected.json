@@ -1,0 +1,33 @@
+{
+  "image": "usa_EV3967.jpg",
+  "width": 1378,
+  "height": 893,
+  "detections": [
+    {
+      "plate": "EV3967",
+      "confidence": 1.0,
+      "char_confidences": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bbox": {
+        "x1": 231,
+        "y1": 632,
+        "x2": 385,
+        "y2": 756
+      },
+      "detector_confidence": 0.8994140625,
+      "region": "United States",
+      "region_confidence": 0.725304365158081
+    }
+  ],
+  "ground_truth": "EV3967"
+}

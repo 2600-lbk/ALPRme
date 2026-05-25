@@ -1,0 +1,33 @@
+{
+  "image": "usa_UBP815.jpg",
+  "width": 1271,
+  "height": 813,
+  "detections": [
+    {
+      "plate": "UBP815",
+      "confidence": 1.0,
+      "char_confidences": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bbox": {
+        "x1": 760,
+        "y1": 517,
+        "x2": 858,
+        "y2": 570
+      },
+      "detector_confidence": 0.8837890625,
+      "region": "United States",
+      "region_confidence": 0.999800980091095
+    }
+  ],
+  "ground_truth": "UBP815"
+}

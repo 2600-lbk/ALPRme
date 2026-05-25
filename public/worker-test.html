@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Worker Test Page</title>
+</head>
+<body>
+  <p>Worker test harness — JS tests drive this page via window globals.</p>
+  <script type="module">
+    import { Alpr } from './src/packages/alpr/index.ts'
+    import { AlprClient } from './src/packages/alpr/client.ts'
+
+    window.__Alpr = Alpr
+    window.__client = AlprClient
+    window.__ready = true
+  </script>
+</body>
+</html>

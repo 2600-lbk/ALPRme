@@ -1,0 +1,33 @@
+{
+  "image": "usa_TMD115.jpg",
+  "width": 1808,
+  "height": 1216,
+  "detections": [
+    {
+      "plate": "TMD115",
+      "confidence": 0.9994140625,
+      "char_confidences": [
+        1.0,
+        1.0,
+        0.994140625,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bbox": {
+        "x1": 1288,
+        "y1": 689,
+        "x2": 1418,
+        "y2": 766
+      },
+      "detector_confidence": 0.8564453125,
+      "region": "United States",
+      "region_confidence": 0.9998452663421631
+    }
+  ],
+  "ground_truth": "TMD115"
+}

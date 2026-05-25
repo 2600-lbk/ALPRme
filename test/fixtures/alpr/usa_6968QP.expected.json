@@ -1,0 +1,33 @@
+{
+  "image": "usa_6968QP.jpg",
+  "width": 1440,
+  "height": 941,
+  "detections": [
+    {
+      "plate": "69680P",
+      "confidence": 0.998876953125,
+      "char_confidences": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.98876953125,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bbox": {
+        "x1": 480,
+        "y1": 734,
+        "x2": 566,
+        "y2": 779
+      },
+      "detector_confidence": 0.880859375,
+      "region": "United States",
+      "region_confidence": 0.9997735619544983
+    }
+  ],
+  "ground_truth": "6968QP"
+}

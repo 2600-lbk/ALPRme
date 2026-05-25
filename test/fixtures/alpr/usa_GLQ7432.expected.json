@@ -1,0 +1,58 @@
+{
+  "image": "usa_GLQ7432.jpg",
+  "width": 1440,
+  "height": 940,
+  "detections": [
+    {
+      "plate": "GLQ7432",
+      "confidence": 0.99970703125,
+      "char_confidences": [
+        1.0,
+        1.0,
+        0.998046875,
+        1.0,
+        1.0,
+        1.0,
+        0.9990234375,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bbox": {
+        "x1": 422,
+        "y1": 573,
+        "x2": 525,
+        "y2": 634
+      },
+      "detector_confidence": 0.892578125,
+      "region": "United States",
+      "region_confidence": 0.9900992512702942
+    },
+    {
+      "plate": "BT60",
+      "confidence": 0.9701171875,
+      "char_confidences": [
+        1.0,
+        0.998046875,
+        0.98876953125,
+        0.72900390625,
+        0.9921875,
+        0.9951171875,
+        0.998046875,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bbox": {
+        "x1": 1402,
+        "y1": 376,
+        "x2": 1438,
+        "y2": 400
+      },
+      "detector_confidence": 0.474365234375,
+      "region": "Iceland",
+      "region_confidence": 0.43080079555511475
+    }
+  ],
+  "ground_truth": "GLQ7432"
+}

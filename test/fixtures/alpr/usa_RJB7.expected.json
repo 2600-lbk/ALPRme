@@ -1,0 +1,33 @@
+{
+  "image": "usa_RJB7.jpg",
+  "width": 1440,
+  "height": 940,
+  "detections": [
+    {
+      "plate": "RJB7",
+      "confidence": 1.0,
+      "char_confidences": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bbox": {
+        "x1": 326,
+        "y1": 475,
+        "x2": 497,
+        "y2": 579
+      },
+      "detector_confidence": 0.8984375,
+      "region": "United States",
+      "region_confidence": 0.9989060163497925
+    }
+  ],
+  "ground_truth": "RJB7"
+}
