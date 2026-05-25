@@ -10,11 +10,10 @@ const certPath = resolve(certDir, 'server-cert.pem')
 const keyPath = resolve(certDir, 'server-key.pem')
 const hasCerts = existsSync(certPath) && existsSync(keyPath) && !process.env.VITE_NO_HTTPS
 
+const BASE = process.env.VITE_BASE ?? '/'
+
 export default defineConfig({
-  // Base public path. Override with VITE_BASE env var for GitHub Pages project
-  // sites (e.g. VITE_BASE=/ALPRme/). Defaults to '/' for custom domains and
-  // user/organization pages.
-  base: process.env.VITE_BASE ?? '/',
+  base: BASE,
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
@@ -59,8 +58,8 @@ export default defineConfig({
       background_color: '#000000',
       display: 'standalone',
       display_override: ['standalone'],
-      scope: '/',
-      start_url: '/',
+      scope: BASE,
+      start_url: BASE,
     },
 
     workbox: {
@@ -72,8 +71,9 @@ export default defineConfig({
       // a navigateFallback the SW returns nothing and Safari renders a white screen.
       navigateFallback: 'index.html',
       // Don't let navigation routing hijack model fetches (those go through
-      // runtimeCaching CacheFirst below).
-      navigateFallbackDenylist: [/^\/models\//],
+      // runtimeCaching CacheFirst below). The denylist must match URLs as seen
+      // by the service worker (post-BASE), so we escape any path separators.
+      navigateFallbackDenylist: [new RegExp(`^${BASE.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}models/`)],
       // ORT WASM (simd+threaded+jsep variant) ships at ~26 MB. Cap generously
       // so it lands in the precache — without it inference fails offline.
       maximumFileSizeToCacheInBytes: 40_000_000,
@@ -81,7 +81,7 @@ export default defineConfig({
       clientsClaim: true,
       runtimeCaching: [
         {
-          urlPattern: /\/models\/.*\.(onnx|json)$/,
+          urlPattern: new RegExp(`${BASE.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}models/.*\\.(onnx|json)$`),
           handler: 'CacheFirst',
           options: {
             cacheName: 'models',

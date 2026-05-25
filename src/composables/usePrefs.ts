@@ -12,10 +12,12 @@ export interface AppPrefs extends PipelineParams {
   filterPreset: FilterPreset
 }
 
+const MODELS_BASE = `${import.meta.env.BASE_URL}models/`.replace(/\/+$/, '/')
+
 export const DEFAULT_PREFS: AppPrefs = {
-  detectorUrl: '/models/yolo-v9-t-384.onnx',
-  ocrUrl: '/models/cct_xs_v2_global.onnx',
-  ocrConfigUrl: '/models/cct_v2_global_plate_config.json',
+  detectorUrl: `${MODELS_BASE}/yolo-v9-t-384.onnx`,
+  ocrUrl: `${MODELS_BASE}/cct_xs_v2_global.onnx`,
+  ocrConfigUrl: `${MODELS_BASE}/cct_v2_global_plate_config.json`,
   targetFps: 4,
   filterPreset: DEFAULT_PRESET,
   ...FILTER_PRESETS[DEFAULT_PRESET],
