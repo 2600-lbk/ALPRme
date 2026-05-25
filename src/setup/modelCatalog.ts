@@ -1,4 +1,5 @@
-const MODELS = `${import.meta.env.BASE_URL}models/`.replace(/\/+$/, '/')
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, '')
+const MODELS = `${BASE}/models/`
 
 export interface ModelEntry {
   key: string
